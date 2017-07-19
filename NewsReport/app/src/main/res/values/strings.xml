@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">NewsReport</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_name_label">News Category</string>
+    <string name="settings_name_key" translatable="false">name</string>
+    <string name="settings_name_default" translatable="false">technology</string>
+
+    <string name="settings_label_sports_label">Sports</string>
+    <string name="settings_label_sports_value" translatable="false">sports</string>
+
+    <string name="settings_label_politics_label">Politics</string>
+    <string name="settings_label_politics_value" translatable="false">politics</string>
+
+    <string name="settings_label_technology_label">Technology</string>
+    <string name="settings_label_technology_value" translatable="false">technology</string>
+
+    <string name="settings_label_stories_label">Top Stories</string>
+    <string name="settings_label_stories_value" translatable="false">stories</string>
+
+
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+       <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+
+</resources>
