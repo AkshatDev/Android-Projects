@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Book Listing</string>
+
+    <string name="settings_menu_item">Settings</string>
+
+        <string name="settings_title">News Settings</string>
+
+    <string name="settings_name_label">News Category</string>
+    <string name="settings_name_key" translatable="false">name</string>
+    <string name="settings_name_default" translatable="false">technology</string>
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_label_sports_label">Sports</string>
+    <string name="settings_labrl_sports_value" translatable="false">sports</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_label_politics_label">Politics</string>
+    <string name="settings_label_politics_value" translatable="false">politics</string>
+
+    <string name="settings_label_technology_label">Technology</string>
+    <string name="settings_label_technology_value" translatable="false">technology</string>
+
+    <string name="settings_label_stories_label">Top Stories</string>
+    <string name="settings_label_stories_value" translatable="false">stories</string>
+
+
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+
+</resources>
