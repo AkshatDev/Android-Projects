@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/na"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="1. The spherical shape of a drop is due to _______ ?"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/R1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="a. Surface Tension" />
+
+            <TextView
+                android:id="@+id/R2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. Viscosity" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Please input the option no"
+            android:inputType="text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="2. Who is the present RBI Governor ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urjit Patel" />
+
+            <RadioButton
+                android:id="@+id/R4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RahulPappu" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="3. Earth is protected from Ultra voilet radiation by _______ ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ozone" />
+
+            <RadioButton
+                android:id="@+id/R6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oxygen" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="4. If we move from equator to pole the value of acceleration due to gravity 'g'______ ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Increases" />
+
+            <RadioButton
+                android:id="@+id/R8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decreases" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="5. Capital of VeneZuela ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caracas" />
+
+            <RadioButton
+                android:id="@+id/R10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texas" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="6. Solid carbon dioxide is known as ______?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Molten Rock" />
+
+            <RadioButton
+                android:id="@+id/R12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dry ice" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="7. VAT was first introduced in which country ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India" />
+
+            <RadioButton
+                android:id="@+id/R14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="8. Which instrument is used to measure blood pressure ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sphygmomano meter" />
+
+            <RadioButton
+                android:id="@+id/R16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sehthoscope" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="9. How many coastal states are in India ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9" />
+
+            <RadioButton
+                android:id="@+id/R18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="10. How many fundamental duties are laid in the constitution of India ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="285dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/R19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/R20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="11" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="11. Choose types of carbohydrates ?"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galactose" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fructose" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surcrose" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maltose" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="call"
+            android:text="SUBMIT" />
+    </LinearLayout>
+</ScrollView>
