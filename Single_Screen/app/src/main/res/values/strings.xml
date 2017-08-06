@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Single_Screen</string>
+    <string name="business_name">Coffee Shop</string>
+    <string name="address"> Address :</string>
+    <string name="hours">Hours \u0020 \u0020 :</string>
+    <string name="menu">Menu \u0020 \u0020 \u0020 : </string>
+    <string name="phone">Phone \u0020 \u0020 :</string>
+    <string name="maddress">Inside Eagle Motel, GT Road, Ambala Bypass, NH 1, Near Gagan Chowk, Rajpura, Punjab 140401</string>
+    <string name="mhours">Open today · 9AM–11PM</string>
+    <string name="mmenu">cafecoffeeday.com</string>
+    <string name="mphone">01762 313 755</string>
+</resources>
